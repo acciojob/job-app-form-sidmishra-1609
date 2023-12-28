@@ -8,6 +8,29 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<form method="post">
+	    <lable for="name">Name</lable> <br>
+		<input type="text" id="name" placeholder="Enter you name" required> <br> <br>
+
+		<label for="email">Email</label> <br>
+		<input type="email" name="email" id="email" placeholder="Enter your email" required><br><br>
+        
+		<label for="gender">Gender:</label><br>
+		<label for="male" >Male</label>
+		<input type="radio" name="gender" id="male" required>
+
+		<label for="male" >Female</label>
+		<input type="radio" name="gender" id="female" required><br><br>
+
+		<label for="laptop">Laptop Brands</label>
+		<select id="laptop" required>
+			<option value="apple">Apple</option>
+            <option value="asus">Asus</option>
+            <option value="apple">HP</option>
+
+		</select>
+		
+	</form>	
     <script type="text/javascript" src="./script.js">
 </script>
 
